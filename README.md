@@ -15,7 +15,7 @@ I took it from idea to a published game in one week, in September 2026.
 
 ## How it's built
 
-- About 19,600 lines of Luau in client, server and shared modules, synced into Roblox Studio with Rojo.
+- Luau code split into client, server and shared modules, synced into Roblox Studio with Rojo.
 - The run is a deterministic simulation, not Roblox physics. The same module runs on the client for responsiveness and on the server for authority, so the server's result is the one that counts.
 - A seeded random number generator makes a run with the same seed play out exactly the same.
 - The tests in `tests/` drive the real simulation module.
@@ -24,4 +24,4 @@ I took it from idea to a published game in one week, in September 2026.
 
 Install Rojo, run `rojo serve`, and connect the Rojo plugin in Roblox Studio. The map and art live in the Roblox place file, which isn't in this repo.
 
-Built solo by Sean Aminov, with AI coding assistants helping along the way.
+Built solo by Sean Aminov.

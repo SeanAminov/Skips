@@ -1,0 +1,17 @@
+# Roblox Studio lock files
+*.rbxl.lock
+*.rbxlx.lock
+
+# Rojo / build output
+build/
+*.rbxm
+*.rbxmx
+sourcemap.json
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+
+# Place files stay local
+*.rbxl
+*.rbxlx
